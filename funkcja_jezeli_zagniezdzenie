@@ -1,7 +1,7 @@
-;Zagnieżdżenie funkcji JEŻELI, 
+;Funkcja JEŻELI - Zagnieżdżenie, 
 ;na przykładzie dni tygodnia. 
 ; 
 Opis: 
-W komórce A1 należy wpisywać liczby od 1 do 7. 
+W komórce A1 należy wpisać liczbę z zakresu od 1 do 7. 
 Natomiast w komórce B1 należy umieścić poniższą formułę. 
 =JEŻELI(A1=1;"Poniedziałek[Monday]";JEŻELI(A1=2;"Wtorek[Tuesday]";JEŻELI(A1=3;"Środa[Wednesday]";JEŻELI(A1=4;"Czwartek[Thursday]";JEŻELI(A1=5;"Piątek[Friday]";JEŻELI(A1=6;"Sobota[Saturday]";JEŻELI(A1=7;"Niedziela[Sunday]";"?"))))))) 
