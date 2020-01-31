@@ -1,0 +1,7 @@
+;Instrukcja JEŻELI, 
+;na przykładzie działania dzielenia liczby przez zero. 
+; 
+Opis: 
+W komórkach A1 i A2 należy wpisać dowolne liczby. 
+Natomiast w komórce A3 należy umieścić poniższą formułę. 
+=JEŻELI(A2=0;"Błąd -?Dzielenie przez zero jest niewykonalne!";A1/A2) 
