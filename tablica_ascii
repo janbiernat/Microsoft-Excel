@@ -1,0 +1,14 @@
+;Tablica ASCII 
+; 
+Opis: 
+W wierszu 1 należy umieścić następujące nagłówki: 
+  a) kolumna 1: "Znak", 
+  b) kolumna 2: "Kod znaku", 
+  c) kolumna 3: "Hex", 
+  d) kolumna 4: "Bin". 
+W wierszu 2 należy umieścić następujące formuły: 
+  a) w komórce A2 należy umieścić następującą formułę: =JEŻELI(B2=32;"Spacja"; ZNAK(B2)), 
+  b) w komórce B2 należy umieścić wartość liczbową 32, 
+  c) w komórce C2 należy umieścić następującą formułę: =DZIES.NA.SZESN(B2;2), 
+  d) w komórce D2 należy umieścić następującą formułę: =ZŁĄCZ.TEKSTY(LEWY(DZIES.NA.DWÓJK(B2;8);4);" ";PRAWY(DZIES.NA.DWÓJK(B2;8);4)), 
+  e) wypełnij serią danych kolejne wiersze, aż do wiersza nr 255 we wszystkich kolumnach (tj. A, B, C i D). 
